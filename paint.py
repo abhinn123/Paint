@@ -10,6 +10,7 @@ tut.width(10)
 colors = ['red','green','blue','black','orange']
 
 def dragging(x,y):
+    tut.ondrag(None)
     tut.setheading(tut.towards(x,y))
     tut.goto(x,y)
     tut.ondrag(dragging)
