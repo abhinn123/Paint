@@ -1,0 +1,5 @@
+though turtle is a builtin python module but still it is recommended to install its latest release with the command.
+
+PIP INSTALL TURTLE
+
+and thats all just run it.
