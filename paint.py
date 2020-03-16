@@ -19,16 +19,16 @@ def clickRight(x,y):
     tut.clear()
 
 def up():
-    tut.color(colors[random.randrange(len(colors))])
+    tut.color(colors[random.randrange(0, len(colors))])
 
 def main():
     turtle.listen()
 
-    turtle.ondrag(dragging)
-    turtle.onscreenclick(clickRight,3)
-    turtle.onkey(up,'W')
+    tut.ondrag(dragging)
+    win.onscreenclick(clickRight,3)
+    win.onkey(up,'W')
 
-    turtle.mainloop()
+    win.mainloop()
 
 
 main()
