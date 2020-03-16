@@ -26,7 +26,7 @@ def main():
 
     tut.ondrag(dragging)
     win.onscreenclick(clickRight,3)
-    win.onkey(up,'W')
+    turtle.onkey(up,'w')
 
     win.mainloop()
 
